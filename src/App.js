@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Our mission is to democratize AI by increasing access to affordable labeled data.
         </p>
         <a
           className="App-link"
