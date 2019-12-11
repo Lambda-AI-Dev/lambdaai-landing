@@ -68,7 +68,7 @@ export const Footer00DataSource = {
     children: (
       <>
         <p>
-          ©2019 Lambda AI | Made with <span>❤️</span> in Philadelphia
+          ©2019 Lambda AI | Made with<span role="img"> ❤️</span>in Philadelphia
         </p>
       </>
     )
