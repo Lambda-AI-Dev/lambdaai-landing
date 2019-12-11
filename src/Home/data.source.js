@@ -95,7 +95,7 @@ export const Feature50DataSource = {
             ),
             className: "content7-tag-name k41pj7ijico-editor_css"
           },
-          icon: { children: "mobile" }
+          icon: { children: "code" }
         },
         content: {
           className: "content7-content",
@@ -141,7 +141,7 @@ export const Feature50DataSource = {
         name: "block1",
         tag: {
           className: "content7-tag",
-          icon: { children: "tablet" },
+          icon: { children: "global" },
           text: {
             className: "content7-tag-name k41pjcs3o1-editor_css",
             children: (
