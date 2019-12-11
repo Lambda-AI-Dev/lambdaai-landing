@@ -42,7 +42,7 @@ export const Banner50DataSource = {
         name: "button",
         className: "banner5-button-wrapper",
         children: {
-          href: "#",
+          href: "mailto: support@lambdaai.dev",
           className: "banner5-button k40vsmqkk3b-editor_css",
           type: "primary",
           children: (
@@ -68,7 +68,7 @@ export const Footer00DataSource = {
     children: (
       <>
         <p>
-          ©2019 Lambda AI | Made with <span>❤️</span> in Philadelphia
+          ©2019 Lambda AI | Made with <span>❤️</span>in Philadelphia
         </p>
       </>
     )
