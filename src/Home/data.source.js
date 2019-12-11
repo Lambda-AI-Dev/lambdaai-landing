@@ -21,7 +21,7 @@ export const Banner50DataSource = {
         className: "banner5-explain k41ny2gzoy-editor_css",
         children: (
           <>
-            <p>Affordable labeled data at scale</p>
+            <p>Earn more with your games</p>
           </>
         )
       },
@@ -31,9 +31,9 @@ export const Banner50DataSource = {
         children: (
           <>
             <p>
-              We leverage millions of online game players to help AI companies
-              label data by replacing 30 seconds video ads with data labeling
-              tasks.
+              We help game developers earn more by connecting high value,
+              bite-size tasks from AI researchers with millions of online game
+              players.
             </p>
           </>
         )
@@ -42,7 +42,7 @@ export const Banner50DataSource = {
         name: "button",
         className: "banner5-button-wrapper",
         children: {
-          href: "#",
+          href: "mailto: support@lambdaai.dev",
           className: "banner5-button k41ny9wxpb9-editor_css",
           type: "primary",
           children: (
