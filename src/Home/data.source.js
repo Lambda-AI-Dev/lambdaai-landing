@@ -108,22 +108,21 @@ export const Feature50DataSource = {
                 <span>
                   <h3>Get Paid More</h3>
                   <p>
-                    Millions of advertisers compete for your ad space. That
-                    means more money, more relevant ads, and more ad spaces
-                    filled.
+                    Simple data labeling tasks yields a fivefold increase in revenue 
+                    when compared to traditional ad sources.
                   </p>
                   <br />
                   <h3>Better User Experience</h3>
                   <p>
-                    Google can optimize the size of your ad units to
-                    automatically fit desktop or mobile, meaning there's more
-                    chance they'll be seen and clicked.
+                    Users have autonomy when choosing to complete tasks or wait for 
+                    a timer, giving them control over the gaming experience.
                   </p>
                   <br />
-                  <h3>Save Time</h3>
-                  Google can optimize the size of your ad units to automatically
-                  fit desktop or mobile, meaning there's more chance they'll be
-                  seen and clicked.
+                  <h3>Easy Integration</h3>
+                  <p>
+                    Lambda AI offers a straightforward setup to allow developers to 
+                    get set up and paid in minutes.
+                  </p>
                 </span>
               </>
             )
@@ -160,24 +159,23 @@ export const Feature50DataSource = {
             children: (
               <>
                 <span>
+                  <h3>Affordable Labeled Data</h3>
+                  <p>
+                    Lambda AI allows companies and academia to quickly and 
+                    cheaply get labeled image classification data.
+                  </p>
+                  <br />
                   <h3>API and Done</h3>
                   <p>
-                    Google can optimize the size of your ad units to
-                    automatically fit desktop or mobile, meaning there's more
-                    chance they'll be seen and clicked.
+                    Lambda AI only requires the data via an API call so you 
+                    can integrate labeled data directly into your workflow.
                   </p>
                   <br />
                   <h3>Quality Control</h3>
                   <p>
-                    Google can optimize the size of your ad units to
-                    automatically fit desktop or mobile, meaning there's more
-                    chance they'll be seen and clicked.
+                    We promise top industry-standard rates of quality on all 
+                    image classification data to ensure your model’s success.
                   </p>
-                  <br />
-                  <h3>Affordabel Labeled Data</h3>
-                  Google can optimize the size of your ad units to automatically
-                  fit desktop or mobile, meaning there's more chance they'll be
-                  seen and clicked.
                 </span>
               </>
             )
@@ -201,7 +199,7 @@ export const Footer00DataSource = {
     className: "copyright",
     children: (
       <>
-        <span>©2019 Lambda AI | Made with ❤️ in Philly</span>
+        <span>©2020 Lambda AI | Made with ❤️ in Philly</span>
       </>
     )
   }
