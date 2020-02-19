@@ -4,17 +4,13 @@ import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
 import Banner5 from './Banner5';
-import Feature3 from './Feature3';
-import Feature0 from './Feature0';
-import Teams1 from './Teams1';
-import Footer1 from './Footer1';
+import Feature5 from './Feature5';
+import Footer0 from './Footer0';
 
 import {
   Banner50DataSource,
-  Feature30DataSource,
-  Feature00DataSource,
-  Teams10DataSource,
-  Footer11DataSource,
+  Feature50DataSource,
+  Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -60,28 +56,16 @@ export default class Home extends React.Component {
         dataSource={Banner50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature3
-        id="Feature3_0"
-        key="Feature3_0"
-        dataSource={Feature30DataSource}
+      <Feature5
+        id="Feature5_0"
+        key="Feature5_0"
+        dataSource={Feature50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature0
-        id="Feature0_0"
-        key="Feature0_0"
-        dataSource={Feature00DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Teams1
-        id="Teams1_0"
-        key="Teams1_0"
-        dataSource={Teams10DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Footer1
-        id="Footer1_1"
-        key="Footer1_1"
-        dataSource={Footer11DataSource}
+      <Footer0
+        id="Footer0_0"
+        key="Footer0_0"
+        dataSource={Footer00DataSource}
         isMobile={this.state.isMobile}
       />,
     ];
