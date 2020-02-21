@@ -338,7 +338,7 @@ export const Feature00DataSource = {
               className: "content0-block-title k6u7d6bm7am-editor_css",
               children: (
                 <>
-                  <p>10x Cheaper</p>
+                  <p>5x Cheaper</p>
                 </>
               )
             },
@@ -347,7 +347,7 @@ export const Feature00DataSource = {
               children: (
                 <>
                   <p>
-                    We charge $0.015 / image, which is 10x Cheaper than industry
+                    We charge $0.075 / image, which is 5x Cheaper than industry
                     leaders (Amazon mTurk, Scale).
                   </p>
                 </>
