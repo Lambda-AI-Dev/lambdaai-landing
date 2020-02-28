@@ -483,6 +483,21 @@ export const Teams10DataSource = {
             {
               name: "image",
               className: "teams1-image",
+              children: "https://entrepreneurship.wharton.upenn.edu/wp-content/uploads/2017/11/VIP-V-circle-200-x-200.png"
+            }
+          ]
+        }
+      },
+      {
+        name: "block2",
+        className: "block",
+        md: 8,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: "image",
+              className: "teams1-image",
               children:
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlaqePWRaA8qjVGcs3PH0pg6cvwDF7lUtKsc_qH3Vm85TWwPaC"
             }
@@ -490,7 +505,7 @@ export const Teams10DataSource = {
         }
       },
       {
-        name: "block2",
+        name: "block3",
         className: "block",
         md: 8,
         xs: 24,
