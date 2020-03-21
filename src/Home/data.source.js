@@ -503,22 +503,6 @@ export const Teams10DataSource = {
             }
           ]
         }
-      },
-      {
-        name: "block3",
-        className: "block",
-        md: 8,
-        xs: 24,
-        titleWrapper: {
-          children: [
-            {
-              name: "image",
-              className: "teams1-image",
-              children:
-                "https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1477513936/ekok12atih1ddvwoz1x5.jpg"
-            }
-          ]
-        }
       }
     ]
   }
