@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./Home";
+import Dashboard from "./Dashboard";
 import HttpsRedirect from "react-https-redirect";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
@@ -11,6 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={App} />
+        <Route path="/dashboard" exact component={Dashboard} />
         <Route
           path="/demo"
           exact

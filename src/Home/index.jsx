@@ -1,22 +1,26 @@
 /* eslint no-undef: 0 */
 /* eslint arrow-parens: 0 */
-import React from 'react';
-import { enquireScreen } from 'enquire-js';
+import React from "react";
+import { enquireScreen } from "enquire-js";
+import qs from "qs";
+import axios from "axios";
 
-import Banner5 from './Banner5';
-import Feature3 from './Feature3';
-import Feature0 from './Feature0';
-import Teams1 from './Teams1';
-import Footer1 from './Footer1';
+import Nav3 from "./Nav3";
+import Banner5 from "./Banner5";
+import Feature3 from "./Feature3";
+import Feature0 from "./Feature0";
+import Teams1 from "./Teams1";
+import Footer1 from "./Footer1";
 
 import {
+  Nav30DataSource,
   Banner50DataSource,
   Feature30DataSource,
   Feature00DataSource,
   Teams10DataSource,
   Footer10DataSource,
-} from './data.source';
-import './less/antMotionStyle.less';
+} from "./data.source";
+import "./less/antMotionStyle.less";
 
 let isMobile;
 enquireScreen((b) => {
@@ -49,11 +53,35 @@ export default class Home extends React.Component {
         });
       }, 500);
     }
-    /* 如果不是 dva 2.0 请删除 end */
+
+    // code from AWS cognito
+    const code = qs.parse(this.props.location.search, {
+      ignoreQueryPrefix: true,
+    }).code;
+
+    if (code) {
+      const client_id = "3endpj3orahlifqfu956vkrh5r";
+      const authURL = `https://auth-ac.lambdaai.dev/oauth2/token?grant_type=authorization_code&code=${code}&client_id=${client_id}&redirect_uri=https://lambdaai.dev`;
+
+      axios
+        .post(authURL)
+        .then((res) => {
+          console.log(res);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    }
   }
 
   render() {
     const children = [
+      <Nav3
+        id="Nav3_0"
+        key="Nav3_0"
+        dataSource={Nav30DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Banner5
         id="Banner5_0"
         key="Banner5_0"

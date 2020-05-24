@@ -1,4 +1,57 @@
 import React from "react";
+import { AC_DEV_AUTH_LINK, CC_DEV_AUTH_LINK } from "../AuthLinks";
+export const Nav30DataSource = {
+  wrapper: { className: "header3 home-page-wrapper jzih1dpqqrg-editor_css" },
+  page: { className: "home-page" },
+  logo: {
+    className: "header3-logo jzjgnya1gmn-editor_css",
+    children:
+      "https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-J8NSLj9rbsAAAAAAAAAAABkARQnAQ",
+  },
+  Menu: {
+    className: "header3-menu",
+    children: [
+      {
+        name: "item1",
+        className: "header3-item",
+        children: {
+          href: AC_DEV_AUTH_LINK,
+          children: [
+            {
+              children: (
+                <span>
+                  <p>For Data Requesters</p>
+                </span>
+              ),
+              name: "text",
+            },
+          ],
+        },
+      },
+      {
+        name: "item2",
+        className: "header3-item",
+        children: {
+          href: CC_DEV_AUTH_LINK,
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <p>For Developers</p>
+                  </span>
+                </span>
+              ),
+              name: "text",
+              className: "kajbhb9wo2c-editor_css",
+            },
+          ],
+        },
+      },
+    ],
+  },
+  mobileMenu: { className: "header3-mobile-menu" },
+};
 export const Banner50DataSource = {
   wrapper: { className: "home-page-wrapper banner5" },
   page: { className: "home-page banner5-page" },
@@ -8,47 +61,67 @@ export const Banner50DataSource = {
       {
         name: "title",
         children: (
-          <>
-            <p>
-              <b>Lambda AI</b>
-            </p>
-          </>
+          <span>
+            <span>
+              <span>
+                <span>
+                  <p>
+                    <b>Lambda AI</b>
+                  </p>
+                </span>
+              </span>
+            </span>
+          </span>
         ),
-        className: "banner5-title k6u6p83n50d-editor_css",
+        className: "banner5-title kajaycgtbm-editor_css",
       },
       {
         name: "explain",
-        className: "banner5-explain k6u6wjhqlol-editor_css",
+        className: "banner5-explain kajayj5v2c-editor_css",
         children: (
-          <>
-            <p>Affordable Labeling for Data-Driven Businesses</p>
-          </>
+          <span>
+            <span>
+              <span>
+                <p>Affordable Labeling for Data-Driven Businesses</p>
+              </span>
+            </span>
+          </span>
         ),
       },
       {
         name: "content",
-        className: "banner5-content k6u6wsybcqh-editor_css",
+        className: "banner5-content kajayn6xjn6-editor_css",
         children: (
-          <>
-            <p>
-              We accelerate data-driven applications by making quality labeled
-              text affordable. We do so through ML-assisted labeling, and
-              innovative crowdsourcing.
-            </p>
-          </>
+          <span>
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <p>
+                      We accelerate data-driven applications by making quality
+                      labeled text affordable. We do so through ML-assisted
+                      labeling, and innovative crowdsourcing.
+                    </p>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
         ),
       },
       {
         name: "button",
         className: "banner5-button-wrapper",
         children: {
-          href: "mailto: support@lambdaai.dev",
-          className: "banner5-button k6u6wurj1w-editor_css",
+          href: "#",
+          className: "banner5-button kajb5w45v5c-editor_css",
           type: "primary",
           children: (
-            <>
-              <p>Contact Us</p>
-            </>
+            <span>
+              <span>
+                <p>Contact Us</p>
+              </span>
+            </span>
           ),
         },
       },
@@ -70,24 +143,32 @@ export const Feature30DataSource = {
       {
         name: "title",
         children: (
-          <>
-            <p>
-              <b>Meet Our Products</b>
-            </p>
-          </>
+          <span>
+            <span>
+              <span>
+                <p>
+                  <b>Meet Our Products</b>
+                </p>
+              </span>
+            </span>
+          </span>
         ),
-        className: "title-h1 k6u6pjojfoh-editor_css",
+        className: "title-h1 kajb15gwlnm-editor_css",
       },
       {
         name: "content",
-        className: "title-content k6u6x4dljj-editor_css",
+        className: "title-content kajb19n3fos-editor_css",
         children: (
-          <>
-            <p>
-              Our API provides access to human-powered training data for your
-              model.
-            </p>
-          </>
+          <span>
+            <span>
+              <span>
+                <p>
+                  Our API provides access to human-powered training data for
+                  your model.
+                </p>
+              </span>
+            </span>
+          </span>
         ),
       },
     ],
@@ -108,22 +189,29 @@ export const Feature30DataSource = {
           },
           textWrapper: { className: "content3-text" },
           title: {
-            className: "content3-title k6u7cc6h97l-editor_css",
+            className: "content3-title kajbs8phtit-editor_css",
             children: (
-              <>
-                <p>E-Commerce</p>
-              </>
+              <span>
+                <span>
+                  <span>
+                    <p>E-Commerce</p>
+                  </span>
+                </span>
+              </span>
             ),
           },
           content: {
-            className: "content3-content k6u7c90mfxn-editor_css",
+            className: "content3-content kajbsgidzw7-editor_css",
             children: (
-              <>
-                <p>
-                  We can help you categorize products and their characteristics
-                  to help you enable features such as image search.
-                </p>
-              </>
+              <span>
+                <span>
+                  <p>
+                    We can help you categorize products and their
+                    characteristics to help you enable features such as image
+                    search.
+                  </p>
+                </span>
+              </span>
             ),
           },
         },
@@ -141,22 +229,26 @@ export const Feature30DataSource = {
           },
           textWrapper: { className: "content3-text" },
           title: {
-            className: "content3-title k6u7bkr2b1f-editor_css",
+            className: "content3-title kajbs56r3e-editor_css",
             children: (
-              <>
-                <p>Retail</p>
-              </>
+              <span>
+                <span>
+                  <p>Retail</p>
+                </span>
+              </span>
             ),
           },
           content: {
-            className: "content3-content k6u7bi3bka-editor_css",
+            className: "content3-content kajbrtvwaj-editor_css",
             children: (
-              <>
-                <p>
-                  Learning more about your customers? We label anything from
-                  purchased products to customer behavior.
-                </p>
-              </>
+              <span>
+                <span>
+                  <p>
+                    Learning more about your customers? We label anything from
+                    purchased products to customer behavior.
+                  </p>
+                </span>
+              </span>
             ),
           },
         },
@@ -174,22 +266,26 @@ export const Feature30DataSource = {
           },
           textWrapper: { className: "content3-text" },
           title: {
-            className: "content3-title k6u7bq22uv8-editor_css",
+            className: "content3-title kajbs1tb5th-editor_css",
             children: (
-              <>
-                <p>Advertising</p>
-              </>
+              <span>
+                <span>
+                  <p>Advertising</p>
+                </span>
+              </span>
             ),
           },
           content: {
-            className: "content3-content k6u7bn2m77-editor_css",
+            className: "content3-content kajbrxke02-editor_css",
             children: (
-              <>
-                <p>
-                  Analyzing your marketing campaign? We can tag brand names,
-                  customer reviews, and customer satisfaction.
-                </p>
-              </>
+              <span>
+                <span>
+                  <p>
+                    Analyzing your marketing campaign? We can tag brand names,
+                    customer reviews, and customer satisfaction.
+                  </p>
+                </span>
+              </span>
             ),
           },
         },
@@ -207,22 +303,26 @@ export const Feature30DataSource = {
           },
           textWrapper: { className: "content3-text" },
           title: {
-            className: "content3-title k6u7c6neqbn-editor_css",
+            className: "content3-title kajbt2dj62n-editor_css",
             children: (
-              <>
-                <p>Entertainment</p>
-              </>
+              <span>
+                <span>
+                  <p>Entertainment</p>
+                </span>
+              </span>
             ),
           },
           content: {
-            className: "content3-content k6u7c23zk9b-editor_css",
+            className: "content3-content kajbt67997a-editor_css",
             children: (
-              <>
-                <p>
-                  Moderating your site’s user generated data? We classify
-                  content type, potential copyright infringement and more.
-                </p>
-              </>
+              <span>
+                <span>
+                  <p>
+                    Moderating your site’s user generated data? We classify
+                    content type, potential copyright infringement and more.
+                  </p>
+                </span>
+              </span>
             ),
           },
         },
@@ -240,22 +340,26 @@ export const Feature30DataSource = {
           },
           textWrapper: { className: "content3-text" },
           title: {
-            className: "content3-title k6u7bx9aot8-editor_css",
+            className: "content3-title kajbsn98uul-editor_css",
             children: (
-              <>
-                <p>Internet of Things</p>
-              </>
+              <span>
+                <span>
+                  <p>Internet of Things</p>
+                </span>
+              </span>
             ),
           },
           content: {
-            className: "content3-content k6u7bzqmtu7-editor_css",
+            className: "content3-content kajbskpqbro-editor_css",
             children: (
-              <>
-                <p>
-                  Working on an IoT sensor? We can work with you to create
-                  training sets to help your sensor “see” the world.
-                </p>
-              </>
+              <span>
+                <span>
+                  <p>
+                    Working on an IoT sensor? We can work with you to create
+                    training sets to help your sensor “see” the world.
+                  </p>
+                </span>
+              </span>
             ),
           },
         },
@@ -273,22 +377,26 @@ export const Feature30DataSource = {
           },
           textWrapper: { className: "content3-text" },
           title: {
-            className: "content3-title k6u7buv0996-editor_css",
+            className: "content3-title kajbsz5vxrn-editor_css",
             children: (
-              <>
-                <p>Research</p>
-              </>
+              <span>
+                <span>
+                  <p>Research</p>
+                </span>
+              </span>
             ),
           },
           content: {
-            className: "content3-content k6u7bsknmp-editor_css",
+            className: "content3-content kajbsvjghd-editor_css",
             children: (
-              <>
-                <p>
-                  Need a new dataset to validate your research? We deliver
-                  industry grade data for academic researchers globally.
-                </p>
-              </>
+              <span>
+                <span>
+                  <p>
+                    Need a new dataset to validate your research? We deliver
+                    industry grade data for academic researchers globally.
+                  </p>
+                </span>
+              </span>
             ),
           },
         },
@@ -306,13 +414,17 @@ export const Feature00DataSource = {
       {
         name: "title",
         children: (
-          <>
-            <p>
-              <b>Why Lambda AI?</b>
-            </p>
-          </>
+          <span>
+            <span>
+              <span>
+                <p>
+                  <b>Why Lambda AI?</b>
+                </p>
+              </span>
+            </span>
+          </span>
         ),
-        className: "k6u6q0pidnp-editor_css",
+        className: "kajb7y8zjem-editor_css",
       },
     ],
   },
@@ -335,24 +447,26 @@ export const Feature00DataSource = {
             },
             {
               name: "title",
-              className: "content0-block-title k6u7d6bm7am-editor_css",
+              className: "content0-block-title kajbtu244h-editor_css",
               children: (
-                <>
+                <span>
                   <p>5x Cheaper</p>
-                </>
+                </span>
               ),
             },
             {
               name: "content",
               children: (
-                <>
-                  <p>
-                    We charge $0.075 / image, which is 5x Cheaper than industry
-                    leaders (Amazon mTurk, Scale).
-                  </p>
-                </>
+                <span>
+                  <span>
+                    <p>
+                      We charge $0.075 / image, which is 5x Cheaper than
+                      industry leaders (Amazon mTurk, Scale).
+                    </p>
+                  </span>
+                </span>
               ),
-              className: "k6u7d3vpf7-editor_css",
+              className: "kajbtxlsr5e-editor_css",
             },
           ],
         },
@@ -373,24 +487,28 @@ export const Feature00DataSource = {
             },
             {
               name: "title",
-              className: "content0-block-title k6u7cu11s8b-editor_css",
+              className: "content0-block-title kajbtot0sgj-editor_css",
               children: (
-                <>
-                  <p>&gt; 97% Accuracy</p>
-                </>
+                <span>
+                  <span>
+                    <p>&gt; 97% Accuracy</p>
+                  </span>
+                </span>
               ),
             },
             {
               name: "content",
               children: (
-                <>
-                  <p>
-                    We promise top industry grade quality (97%) on your image
-                    data to ensure your model’s success.
-                  </p>
-                </>
+                <span>
+                  <span>
+                    <p>
+                      We promise top industry grade quality (97%) on your image
+                      data to ensure your model’s success.
+                    </p>
+                  </span>
+                </span>
               ),
-              className: "k6u7d1i26h7-editor_css",
+              className: "kajbtf275z-editor_css",
             },
           ],
         },
@@ -411,21 +529,25 @@ export const Feature00DataSource = {
             },
             {
               name: "title",
-              className: "content0-block-title k6u7cz2rl76-editor_css",
+              className: "content0-block-title kajbtl3tz0k-editor_css",
               children: (
-                <>
-                  <p>3-Weeks Turnaround</p>
-                </>
+                <span>
+                  <span>
+                    <p>3-Weeks Turnaround</p>
+                  </span>
+                </span>
               ),
             },
             {
               name: "content",
               children: (
-                <>
-                  <p>We deliver your dataset fully labeled in 3 weeks.</p>
-                </>
+                <span>
+                  <span>
+                    <p>We deliver your dataset fully labeled in 3 weeks.</p>
+                  </span>
+                </span>
               ),
-              className: "k6u7cw7levd-editor_css",
+              className: "kajbti092gl-editor_css",
             },
           ],
         },
@@ -434,9 +556,7 @@ export const Feature00DataSource = {
   },
 };
 export const Teams10DataSource = {
-  wrapper: {
-    className: "home-page-wrapper teams1-wrapper k6u6uir1kwf-editor_css",
-  },
+  wrapper: { className: "home-page-wrapper teams1-wrapper" },
   page: { className: "home-page teams1" },
   OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
@@ -445,13 +565,15 @@ export const Teams10DataSource = {
       {
         name: "title",
         children: (
-          <>
-            <p>
-              <b>We are Proudly Backed By</b>
-            </p>
-          </>
+          <span>
+            <span>
+              <p>
+                <b>We are Proudly Backed By</b>
+              </p>
+            </span>
+          </span>
         ),
-        className: "k6u6vfg8e1-editor_css",
+        className: "kajbf0z3tz9-editor_css",
       },
     ],
   },
@@ -467,7 +589,7 @@ export const Teams10DataSource = {
           children: [
             {
               name: "image",
-              className: "teams1-image k6u6zumfkjr-editor_css",
+              className: "teams1-image",
               children: "https://i.ibb.co/fprDDs0/download-copy.png",
             },
           ],
@@ -484,7 +606,7 @@ export const Teams10DataSource = {
               name: "image",
               className: "teams1-image",
               children:
-                "https://entrepreneurship.wharton.upenn.edu/wp-content/uploads/2017/11/VIP-V-circle-200-x-200.png",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlaqePWRaA8qjVGcs3PH0pg6cvwDF7lUtKsc_qH3Vm85TWwPaC",
             },
           ],
         },
@@ -500,7 +622,7 @@ export const Teams10DataSource = {
               name: "image",
               className: "teams1-image",
               children:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlaqePWRaA8qjVGcs3PH0pg6cvwDF7lUtKsc_qH3Vm85TWwPaC",
+                "https://entrepreneurship.wharton.upenn.edu/wp-content/uploads/2017/11/VIP-V-circle-200-x-200.png",
             },
           ],
         },
@@ -521,11 +643,13 @@ export const Footer10DataSource = {
         md: 6,
         className: "block",
         title: {
-          className: "logo k6u7e42bgbk-editor_css",
+          className: "logo kajbuq2w7ws-editor_css",
           children: (
-            <>
-              <p>Lambda AI</p>
-            </>
+            <span>
+              <span>
+                <p>Lambda AI</p>
+              </span>
+            </span>
           ),
         },
         childWrapper: {
@@ -534,11 +658,16 @@ export const Footer10DataSource = {
             {
               name: "content0",
               children: (
-                <>
-                  <p>Affordable Labeling for Data-Drive Businesses</p>
-                </>
+                <span>
+                  <span>
+                    <p>
+                      Affordable Labeling for Data-Driven Businesses
+                      <br />
+                    </p>
+                  </span>
+                </span>
               ),
-              className: "k6u7ebixsyk-editor_css",
+              className: "kajbuupk9xj-editor_css",
             },
           ],
         },
@@ -550,11 +679,13 @@ export const Footer10DataSource = {
         className: "block",
         title: {
           children: (
-            <>
-              <p>Products</p>
-            </>
+            <span>
+              <span>
+                <p>Products</p>
+              </span>
+            </span>
           ),
-          className: "k6u7dwkxnb-editor_css",
+          className: "kajbuy3nask-editor_css",
         },
         childWrapper: {
           children: [
@@ -562,41 +693,51 @@ export const Footer10DataSource = {
               name: "link0",
               href: "#",
               children: (
-                <>
-                  <p>Text Classifcation</p>
-                </>
+                <span>
+                  <span>
+                    <p>Text Classification</p>
+                  </span>
+                </span>
               ),
-              className: "k6u7h7jd17d-editor_css",
+              className: "kajbv1gc7k-editor_css",
             },
             {
               name: "link1",
               href: "#",
               children: (
-                <>
-                  <p>Sentiment Analysis</p>
-                </>
+                <span>
+                  <span>
+                    <span>
+                      <p>Sentiment Analysis</p>
+                    </span>
+                  </span>
+                </span>
               ),
-              className: "k6u7hcjkss8-editor_css",
+              className: "kajbv4wf6p-editor_css",
             },
             {
               name: "link2",
               href: "#",
               children: (
-                <>
-                  <p>Intent Classifcation</p>
-                </>
+                <span>
+                  <span>
+                    <p>Intent Classification</p>
+                  </span>
+                </span>
               ),
-              className: "k6u7hjy6sm-editor_css",
+              className: "kajbvaan0ar-editor_css",
             },
             {
               name: "link3",
               href: "#",
               children: (
-                <>
-                  <p>Translation Comparison</p>
-                </>
+                <span>
+                  <span>
+                    <p>Translation Comparison</p>
+                  </span>
+                </span>
               ),
-              className: "k6u7hmft6ut-editor_css",
+              className: "kajbvdzko0r-editor_css",
             },
           ],
         },
@@ -608,11 +749,13 @@ export const Footer10DataSource = {
         className: "block",
         title: {
           children: (
-            <>
-              <p>About</p>
-            </>
+            <span>
+              <span>
+                <p>About</p>
+              </span>
+            </span>
           ),
-          className: "k6u7dm55jtt-editor_css",
+          className: "kajbvp02qw-editor_css",
         },
         childWrapper: {
           children: [
@@ -620,17 +763,19 @@ export const Footer10DataSource = {
               href: "#",
               name: "link0",
               children: "FAQ",
-              className: "k6u7hpdjar-editor_css",
+              className: "kajbvs3inzs-editor_css",
             },
             {
-              href: "mailto: support@lambdaai.dev",
+              href: "#",
               name: "link1",
               children: (
-                <>
-                  <p>Contact Us</p>
-                </>
+                <span>
+                  <span>
+                    <p>Contact Us</p>
+                  </span>
+                </span>
               ),
-              className: "k6u7hrtzx56-editor_css",
+              className: "kajbvwv8b0g-editor_css",
             },
           ],
         },
@@ -642,11 +787,13 @@ export const Footer10DataSource = {
         className: "block",
         title: {
           children: (
-            <>
-              <p>Resources</p>
-            </>
+            <span>
+              <span>
+                <p>Resources</p>
+              </span>
+            </span>
           ),
-          className: "k6u7dff2vmr-editor_css",
+          className: "kajbw07kn4s-editor_css",
         },
         childWrapper: {
           children: [
@@ -654,21 +801,25 @@ export const Footer10DataSource = {
               href: "#",
               name: "link0",
               children: (
-                <>
-                  <p>For Data Requesters</p>
-                </>
+                <span>
+                  <span>
+                    <p>For Developers</p>
+                  </span>
+                </span>
               ),
-              className: "k6u7hvitzbc-editor_css",
+              className: "kajbw3uv45-editor_css",
             },
             {
               href: "#",
               name: "link1",
               children: (
-                <>
-                  <p>For Game Developers</p>
-                </>
+                <span>
+                  <span>
+                    <p>For Data Requesters</p>
+                  </span>
+                </span>
               ),
-              className: "k6u7hyj28x-editor_css",
+              className: "kajbw786ey7-editor_css",
             },
           ],
         },
@@ -678,7 +829,14 @@ export const Footer10DataSource = {
   copyrightWrapper: { className: "copyright-wrapper" },
   copyrightPage: { className: "home-page" },
   copyright: {
-    className: "copyright k6u7eq0k1ve-editor_css",
-    children: "© 2020 Lambda AI | Made with ❤️ in Philly",
+    className: "copyright kajbn88fos-editor_css",
+    children: (
+      <span>
+        <span>
+          © 2020 Lambda AI | Made with ❤️ in Philly
+          <br />
+        </span>
+      </span>
+    ),
   },
 };
